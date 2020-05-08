@@ -100,7 +100,7 @@ function onMessageReceived(payload) {
     	var outStr = now.getHours()+':'+now.getMinutes();
     	html += '<div  class="d-flex justify-content-start mb-4">';
 		html +=	'<div class="img_cont_msg">';
-		html += '<img src="https://www.upsieutoc.com/images/2020/05/08/1dadbb33999f5d9e2a453ea84954c614.jpg" class="rounded-circle user_img_msg">';
+		html += '<img src="https://www.upsieutoc.com/images/2020/05/08/70064e5a080dd66204176aae57ec8b87.jpg" class="rounded-circle user_img_msg">';
 		html += '</div>';
 		html += '<div class="msg_cotainer_send">' + message.sender + ' :  ' + message.content;
 		html += '<span class="msg_time">' + outStr + ' , Today'  + '</span>';
