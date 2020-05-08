@@ -98,12 +98,12 @@ function onMessageReceived(payload) {
     	var html ='';
     	var now = new Date();
     	var outStr = now.getHours()+':'+now.getMinutes();
-    	html += '<div  class="d-flex justify-content-end mb-4">';
+    	html += '<div  class="d-flex justify-content-start mb-4">';
 		html +=	'<div class="img_cont_msg">';
 		html += '<img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle user_img_msg">';
 		html += '</div>';
 		html += '<div class="msg_cotainer_send">' + message.sender + ' :  ' + message.content;
-		html += '<span class="msg_time_send">' + outStr + ' , Today'  + '</span>';
+		html += '<span class="msg_time">' + outStr + ' , Today'  + '</span>';
 		html += '</div></div>';
 		 $('#messageArea').append(html);
     }
