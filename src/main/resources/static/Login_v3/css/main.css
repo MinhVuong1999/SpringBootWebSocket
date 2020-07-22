@@ -7,22 +7,22 @@
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('http://localhost:8080/Login_v3/fonts/poppins/Poppins-Regular.ttf'); 
+  src: url('/Login_v3/fonts/poppins/Poppins-Regular.ttf'); 
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('http://localhost:8080/Login_v3/fonts/poppins/Poppins-Medium.ttf'); 
+  src: url('/Login_v3/fonts/poppins/Poppins-Medium.ttf'); 
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('http://localhost:8080/Login_v3/fonts/poppins/Poppins-Bold.ttf'); 
+  src: url('/Login_v3/fonts/poppins/Poppins-Bold.ttf'); 
 }
 
 @font-face {
   font-family: Poppins-SemiBold;
-  src: url('http://localhost:8080/Login_v3/fonts/poppins/Poppins-SemiBold.ttf'); 
+  src: url('/Login_v3/fonts/poppins/Poppins-SemiBold.ttf'); 
 }
 
 
