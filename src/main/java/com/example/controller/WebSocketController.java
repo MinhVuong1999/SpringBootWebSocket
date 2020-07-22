@@ -13,17 +13,16 @@ public class WebSocketController {
  
  
     @MessageMapping("/chat.sendMessage")
-    @SendTo("/topic/publicChatRoom")
+    @SendTo("/topic/ChatRoom")
     public ChatMessage sendMessage(@Payload ChatMessage chatMessage) {
         return chatMessage;
     }
  
     @MessageMapping("/chat.addUser")
-    @SendTo("/topic/publicChatRoom")
+    @SendTo("/topic/ChatRoom")
     public ChatMessage addUser(@Payload ChatMessage chatMessage, SimpMessageHeaderAccessor headerAccessor) {
         // Add username in web socket session
         headerAccessor.getSessionAttributes().put("username", chatMessage.getSender());
         return chatMessage;
     }
- 
 }
